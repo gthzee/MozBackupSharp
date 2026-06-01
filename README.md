@@ -8,11 +8,11 @@ A C# WinForms application for backing up and restoring Firefox, Thunderbird, and
 
 ## Screenshots
  
-![Main](https://github.com/gthzee/MozBackupSharp/raw/main/screenshots/MozBackupSharp.png)
+![Main](https://github.com/gthzee/MozBackupSharp/raw/main/MozBackupSharp.png)
+
+![Password Protection](https://github.com/gthzee/MozBackupSharp/raw/main/Password.png)
  
-![Backup](https://github.com/gthzee/MozBackupSharp/raw/main/screenshots/Backup.png)
- 
-![Password Protection](https://github.com/gthzee/MozBackupSharp/raw/main/screenshots/Password.png)
+![Backup](https://github.com/gthzee/MozBackupSharp/raw/main/Backup.png)
  
 ---
  
