@@ -23,7 +23,7 @@ A C# WinForms application for backing up and restoring Firefox, Thunderbird, and
 - **Supports many browsers** — Firefox, Thunderbird, SeaMonkey, Waterfox, LibreWolf, Floorp, Pale Moon, and more
 - **Choose what to back up** — bookmarks, passwords, cookies, extensions, mail folders, and more
 - **Portable browser support** — manually select a profile folder for Tor Browser, Mullvad Browser, etc.
-- **Extensible** — add custom browser profile paths via `ProfileLocations.ini` without recompiling
+- **Extensible** — add custom browser profile paths via `ProfileLocations.ini`
 ---
  
 ## Requirements
