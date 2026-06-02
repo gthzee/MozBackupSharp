@@ -19,11 +19,12 @@ A C# WinForms application for backing up and restoring Firefox, Thunderbird, and
 ## Features
  
 - **Backup & Restore** your browser profiles to a `.pcv` or `.zip` file
-- **Password protection** with AES encryption for sensitive backups
+- **Two password protection modes** — Classic ZIP (ZipCrypto, compatible with original MozBackup) or AES (MozBackupSharp's own secure container)
 - **Supports many browsers** — Firefox, Thunderbird, SeaMonkey, Waterfox, LibreWolf, Floorp, Pale Moon, and more
 - **Choose what to back up** — bookmarks, passwords, cookies, extensions, mail folders, and more
 - **Portable browser support** — manually select a profile folder for Tor Browser, Mullvad Browser, etc.
 - **Extensible** — add custom browser profile paths via `ProfileLocations.ini`
+
 ---
  
 ## Requirements
@@ -31,6 +32,7 @@ A C# WinForms application for backing up and restoring Firefox, Thunderbird, and
 - Windows
 - [.NET Framework 4.5](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
 - Visual Studio 2015 (to build from source)
+
 ---
  
 ## Getting Started
@@ -40,6 +42,7 @@ A C# WinForms application for backing up and restoring Firefox, Thunderbird, and
 3. Choose **Backup** or **Restore** and follow the prompts.
 4. Pick the data you want to include (bookmarks, passwords, extensions, etc.).
 5. Optionally set a **password** to encrypt the backup file.
+
 ---
  
 ## Building from Source
@@ -52,9 +55,10 @@ A C# WinForms application for backing up and restoring Firefox, Thunderbird, and
  
 ## Backup File Format
  
-- Without a password: the `.pcv` file is a standard ZIP archive (openable in 7-Zip or Windows Explorer).
-- With a password: the archive is AES-encrypted and requires the password to restore.
-> **Note:** This tool uses its own encryption format, which is not compatible with original MozBackup password-protected files.
+- **No password:** the `.pcv` file is a standard ZIP archive (openable in 7-Zip or Windows Explorer).
+- **Classic ZIP (ZipCrypto):** password-protected using the same format as the original MozBackup — compatible with other ZIP tools and the original app.
+- **AES (MozBackupSharp):** a more secure encrypted container. Only MozBackupSharp can restore these files.
+> **Tip:** Use **Classic ZIP** mode if you need compatibility with the original MozBackup or standard ZIP tools. Use **AES** mode for stronger encryption.
  
 ---
  
