@@ -1,6 +1,0 @@
-C:\Users\TestApp\Desktop\MozBackupSharp\MozBackupSharp\bin\Release\ProfileLocations.ini
-C:\Users\TestApp\Desktop\MozBackupSharp\MozBackupSharp\bin\Release\MozBackupSharp.exe
-C:\Users\TestApp\Desktop\MozBackupSharp\MozBackupSharp\bin\Release\MozBackupSharp.pdb
-C:\Users\TestApp\Desktop\MozBackupSharp\MozBackupSharp\obj\Release\MozBackupSharp.csprojResolveAssemblyReference.cache
-C:\Users\TestApp\Desktop\MozBackupSharp\MozBackupSharp\obj\Release\MozBackupSharp.exe
-C:\Users\TestApp\Desktop\MozBackupSharp\MozBackupSharp\obj\Release\MozBackupSharp.pdb
