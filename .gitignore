@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+*.user
+*.userprefs
+*.suo
+*.sln.iml
+packages/
+.DS_Store
